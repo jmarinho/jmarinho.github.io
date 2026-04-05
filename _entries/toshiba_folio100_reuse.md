@@ -231,6 +231,8 @@ The calendar is a self-contained Python HTTP server + single-page HTML/JS app:
 
 The browser is `surf` (WebKit-based, minimal), launched fullscreen pointing at `http://localhost:8080`.
 
+![calendar app on Folio 100.]({{ "/assets/imgs/toshiba_img2.jpg" | relative_url }})
+
 ---
 
 ## The Full Boot Sequence
