@@ -58,7 +58,7 @@ For the EMEA version, we need to access the button behind the cover, as you can 
 
 <a id="fig-folio_img1"></a>
 
-![Folio 100 debug buttons behind cover.]({{ "_entries/imgs/toshiba_img1.jpg" | relative_url }})
+![Folio 100 debug buttons behind cover.]({{ "/assets/imgs/toshiba_img1.jpg" | relative_url }})
 
 The Folio 100 uses NVIDIA's proprietary flashing tool. Getting it working on a modern Linux box required:
 
