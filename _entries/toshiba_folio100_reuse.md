@@ -52,6 +52,12 @@ Instead of trying to port a full Android ROM (done, abandoned in 2013 by the com
 
 ## Stage 1: Getting nvflash to Work
 
+Flashing requires getting into the APX mode of the tablet.
+US versions of the tablet allow a volume up/down combo that gets into that mode.
+For the EMEA version, we need to access the button behind the cover, as you can see in <#fig:folio_img1>.
+
+![Folio 100 debug buttons behind cover.](https://github.com/jmarinho/jmarinho.github.io/blob/main/_entries/imgs/toshiba_img1.jpg){#fig:folio_img1}
+
 The Folio 100 uses NVIDIA's proprietary flashing tool. Getting it working on a modern Linux box required:
 
 - Running the x86 `nvflash` binary via `qemu-x86_64` on an ARM64 host
