@@ -1,4 +1,7 @@
-# Z Blg
+---
+layout: default
+title: Z blg
+---
 
 {% assign sorted = site.entries | sort: "date" | reverse %}
 
